@@ -28,7 +28,7 @@ print(df.sort_values(['attempts', 'score'], ascending=[True, False], inplace=Fal
 # WHERE I USE THE TROJAN_ROSTER CSV
 
 # Reading the csv file using pandas
-DF = pd.read_csv('Trojans_Roster.csv')
+DF = pd.read_csv('TrojanRoster.csv')
 
 # Printed DF to check
 # print(DF)
