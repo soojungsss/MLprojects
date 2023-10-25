@@ -58,7 +58,7 @@ print(len(DF['NAME'][DF['HOMETOWN'] == 'Los Angeles, CA']))
 print(DF.nlargest(n=3, columns=['WT.']))
 
 # Defining a new column for DF named BMI containing the BMI of the players
-BMI = 703 * (DF['WT.']/(DF['HT,']**2))
+BMI = 703 * (DF['WT.']/(DF['HT.']**2))
 DF['BMI'] = BMI
 
 # Printing DF to make sure the change happened
