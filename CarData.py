@@ -52,3 +52,6 @@ print(new_frame[new_frame["Miles per Gallon"] > 25.0])
 # Trying to print the car with the highest MPG that IS powerful
 print(new_frame[new_frame["Powerful"] == True].nlargest(n=1, columns=['Miles per Gallon']))
 
+
+
+
